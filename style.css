@@ -2,7 +2,7 @@ body{
     background-color: #ffebcd;
 
     /*ricorda sempre i punti e virgola alla fine*/
-    color:rgb(0, 0, 0), 0, 0); /*di tutto il testo*/
+    color:rgb(0, 0, 0); /*di tutto il testo*/
 
     /*1 incollato direttamente da google
     font-family: 'Roboto', sans-serif;
@@ -19,7 +19,7 @@ h1 {
 }
 
 h4 {
-    color: rgb(200, 80, 80, 0.5); /*tutti gli h4, il quarto valore nel colore è di trasparenza*/
+    color: rgba(0, 0, 0, 0.5); /*tutti gli h4, il quarto valore nel colore è di trasparenza*/
     font-style: italic;
 }
 
@@ -30,7 +30,7 @@ a {
 
 /*tutti i link quando il mouse è sopra*/
 a:hover { 
-    color:rgb(0, 68, 255);
+    color:rgb(0, 0, 0);
     text-decoration: underline;
     font-weight: 700;
 }
