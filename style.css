@@ -22,13 +22,13 @@ h4 {
 
 /* a indica il link*/
 a {
-    border-bottom: 1px solid black; /*short hand di ciò che sarebbero diverse righe di codice*/
+    border-bottom: 1px solid black; /*shorthand di ciò che sarebbero diverse righe di codice*/
 }
 
 /*tutti i link quando il mouse è sopra*/
 a:hover { 
+    color:black 
     text-decoration: underline;
-    font-weight: 700;
 }
 
 /*tutti i link quando il mouse è stato visitato
