@@ -1,0 +1,39 @@
+body{
+    background-color: #ffebcd;
+
+    /*ricorda sempre i punti e virgola alla fine*/
+    color:green; /*di tutto il testo*/
+
+    /*1 incollato direttamente da google*/
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    
+}
+
+/*sottolineare solo h1*/
+h1 {
+    background-color: aqua;
+}
+
+h4 {
+    color: rgb(200, 80, 80, 0.5); /*tutti gli h4, il quarto valore nel colore è di trasparenza*/
+    font-style: italic;
+}
+
+a {
+    color: blueviolet; /*colorare i link*/
+    text-decoration: none; /*togliere la sottolineatura dai link*/
+}
+
+/*tutti i link quando il mouse è sopra*/
+a:hover { 
+    color:rgb(0, 68, 255);
+    text-decoration: underline;
+    font-weight: 700;
+}
+
+/*tutti i link quando il mouse è stato visitato
+a:visited { 
+    color:rgb(0, 255, 8);
+    text-decoration: line-through;
+}*/
