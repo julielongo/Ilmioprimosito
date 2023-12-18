@@ -4,8 +4,12 @@ body{
     /*ricorda sempre i punti e virgola alla fine*/
     color:green; /*di tutto il testo*/
 
-    /*1 incollato direttamente da google*/
+    /*1 incollato direttamente da google
     font-family: 'Roboto', sans-serif;
+    font-size: 20px;*/
+
+    /*1 inserisco Halyard per tutto il documento*/
+    font-family: 'HalyardDis_ISIAU Bk';
     font-size: 20px;
     
 }
