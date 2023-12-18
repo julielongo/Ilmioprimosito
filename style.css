@@ -2,7 +2,7 @@ body{
     background-color: #ffebcd;
 
     /*ricorda sempre i punti e virgola alla fine*/
-    color:green; /*di tutto il testo*/
+    color:rgb(0, 0, 0), 0, 0); /*di tutto il testo*/
 
     /*1 incollato direttamente da google
     font-family: 'Roboto', sans-serif;
@@ -11,7 +11,6 @@ body{
     /*1 inserisco Halyard per tutto il documento*/
     font-family: 'HalyardDis_ISIAU Bk';
     font-size: 20px;
-    
 }
 
 /*sottolineare solo h1*/
