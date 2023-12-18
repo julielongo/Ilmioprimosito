@@ -8,13 +8,17 @@ body{
     font-size: 20px;*/
 
     /*1 inserisco Halyard per tutto il documento*/
-    font-family: 'HalyardDis_ISIAU Bk';
+    font-family: 'HalyardDis_ISIAU Bk', Arial, sans-serif;
     font-size: 20px;
+
+ /* è necessario fare una pila di font nel caso in cui per poca connessione il font da me scelto
+ non viene caricato, quindi si usano i fontsafe, che certamente ha caricati nella sua macchina,
+ lo aggiungo con una virgola dopo font-family: 'HalyardDis_ISIAU Bk' poi aggiungo una che ha tutti e la tipologia */
+
 }
 
 /*sottolineare solo h1*/
 h1 {
-    background-color: aqua;
 }
 
 h4 {
