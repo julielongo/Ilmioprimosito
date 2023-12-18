@@ -33,7 +33,7 @@ a {
 
 /*tutti i link quando il mouse è sopra*/
 a:hover { 
-    color:black 
+    color:black; 
     text-decoration: underline;
 }
 
