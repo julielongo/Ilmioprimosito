@@ -1,5 +1,4 @@
 body{
-    background-color: #ffebcd;
 
     /*ricorda sempre i punti e virgola alla fine*/
     color:rgb(0, 0, 0); /*di tutto il testo*/
@@ -19,18 +18,15 @@ h1 {
 }
 
 h4 {
-    color: rgba(0, 0, 0, 0.5); /*tutti gli h4, il quarto valore nel colore è di trasparenza*/
-    font-style: italic;
 }
 
+/* a indica il link*/
 a {
-    color: blueviolet; /*colorare i link*/
-    text-decoration: none; /*togliere la sottolineatura dai link*/
+    border-bottom: 1px solid black; /*short hand di ciò che sarebbero diverse righe di codice*/
 }
 
 /*tutti i link quando il mouse è sopra*/
 a:hover { 
-    color:rgb(0, 0, 0);
     text-decoration: underline;
     font-weight: 700;
 }
