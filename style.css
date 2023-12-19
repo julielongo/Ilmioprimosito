@@ -98,12 +98,13 @@ img{
 
 /* Il codice che segue vale per tutti gli schermi la cui larghezza massima è 420px */
 @media screen and (max-width: 420px){
+
     body{
-        display:block;
+        width:calc(100vw*5);
     }
 
     div {
-        width: 100%;
+    
     }
 
 }
