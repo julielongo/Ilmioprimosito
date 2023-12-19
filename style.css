@@ -44,8 +44,9 @@ a:visited {
 /*organizzazione colonne*/
 div{
     width: 20%; /*100% è il massimo larghezza computer, diviso 5 colonne=20*/
+
     /*margini, top right bottom left*/
-    padding:25px 5px 0 5px;
+    padding: 25px 5px 0 5px;
 }
 
 img{
