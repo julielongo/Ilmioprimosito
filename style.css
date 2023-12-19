@@ -2,22 +2,18 @@ body{
 
     /*ricorda sempre i punti e virgola alla fine*/
     color:rgb(0, 0, 0); /*di tutto il testo*/
+    background-color:azure ;
 
     /*1 incollato direttamente da google
     font-family: 'Roboto', sans-serif;
     font-size: 20px;*/
 
-    /*1 inserisco Halyard per tutto il documento*/
+    /* è necessario fare una pila di font nel caso in cui per poca connessione il font da me sceltonon venga caricato -> fontsafe, lo aggiungo con una virgola dopo font-family: 'HalyardDis_ISIAU Bk' uno che hanno tutti e la tipologia */
     font-family: 'HalyardDis_ISIAU Bk', Arial, sans-serif;
     font-size: 20px;
 
-    /*per dividere in colonne verticali*/
+    /*per dividere i div dell'Html in colonne*/
     display: flex; 
-
- /* è necessario fare una pila di font nel caso in cui per poca connessione il font da me scelto
- non viene caricato, quindi si usano i fontsafe, che certamente ha caricati nella sua macchina,
- lo aggiungo con una virgola dopo font-family: 'HalyardDis_ISIAU Bk' poi aggiungo una che ha tutti e la tipologia */
-
 }
 
 /*sottolineare solo h1*/
@@ -47,5 +43,11 @@ a:visited {
 
 /*organizzazione colonne*/
 div{
+    width: 20%; /*100% è il massimo larghezza computer, diviso 5 colonne=20*/
+    /*margini, top right bottom left*/
+    padding:25px 5px 0 5px;
 }
 
+img{
+    width:100%; /*100% sempre in base al contenitore!! quindi al div non al width */
+}
