@@ -93,3 +93,13 @@ div.separatore {
 img{
          width:100%; /*100% sempre in base al contenitore!! quindi al div non al width */
     }
+
+
+    
+/* Il codice che segue vale per tutti gli schermi la cui larghezza massima è 420px */
+@media screen and (max-width: 420px){
+    body{
+        background-color: lime;
+    }
+
+}
