@@ -4,20 +4,25 @@ body{
         color:rgb(0, 0, 0); /*di tutto il testo*/
         background-color: white ;
 
+    /*blocchiamo altezza sito, viewport height 100, come il pc*/
+        height: 100vh;
+    /*nascondiamo e blocchiamo lo scroll di tutto ciò che è dopo l'height impostato per poi impostare lo scroll nelle colonne*/
+        overflow-y: hidden; 
+
     /*1 incollato direttamente da google
     font-family: 'Roboto', sans-serif;
     font-size: 20px;*/
 
     /* è necessario fare una pila di font nel caso in cui per poca connessione il font da me sceltonon venga caricato -> fontsafe, lo aggiungo con una virgola dopo font-family: 'HalyardDis_ISIAU Bk' uno che hanno tutti e la tipologia */
-         font-family: 'HalyardDis_ISIAU Bk', Arial, sans-serif;
-         font-size: 16px;
-         line-height: 1.2;
+        font-family: 'HalyardDis_ISIAU Bk', Arial, sans-serif;
+        font-size: 16px;
+        line-height: 1.2;
 
     /*per dividere i div dell'Html in colonne*/
         display: flex; 
 
     /*padding spazio interno della scatola, margin spazio esterno*/
-         padding:0; 
+        padding:0; 
         margin: 0;  /*eliminiamo il margin naturale del browser*/
 }
 
@@ -51,16 +56,30 @@ div{
         width: 20%; /*100% è il massimo larghezza computer, diviso 5 colonne=20*/
          /*una specie di margini, top right bottom left*/
         padding: 0 5px 0 5px;
-     }
-/*la classe indicata nel html nel css diventa un .*/ /*le prime quattro colonne hanno il filetto a destra*/
 
- div.news, div.calendario, div.showcase, div.ricercaesviluppo {
+        /*dopo blocchiamo scroll sito, mettiamo scroll colonna*/
+        overflow-y: scroll;
+     }
+
+     
+/*la classe indicata nel html nel css diventa un .*/ /*le prime quattro colonne hanno il filetto a destra*/
+div.news, div.calendario, div.showcase, div.ricercaesviluppo {
          border-right: 1px solid black;
     }
 
 div.calendario time {
         font-size: 1.18em;
     }
+
+    /* Hide scrollbar for Chrome, Safari and Opera */
+        div::-webkit-scrollbar {
+            display: none;
+        }
+                    /* Hide scrollbar for IE, Edge and Firefox */
+                    div {
+                        -ms-overflow-style: none;  /* IE and Edge */
+                        scrollbar-width: none;  /* Firefox */
+                        }
 
 img{
          width:100%; /*100% sempre in base al contenitore!! quindi al div non al width */
