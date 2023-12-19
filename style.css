@@ -11,6 +11,7 @@ body{
     /* è necessario fare una pila di font nel caso in cui per poca connessione il font da me sceltonon venga caricato -> fontsafe, lo aggiungo con una virgola dopo font-family: 'HalyardDis_ISIAU Bk' uno che hanno tutti e la tipologia */
          font-family: 'HalyardDis_ISIAU Bk', Arial, sans-serif;
          font-size: 16px;
+         line-height: 1.2;
 
     /*per dividere i div dell'Html in colonne*/
         display: flex; 
@@ -20,10 +21,10 @@ body{
         margin: 0;  /*eliminiamo il margin naturale del browser*/
 }
 
-/*sottolineare solo h1*/
-h2 {
-         margin: 0;  /*eliminiamo il margin naturale del browser*/
-        font-size: 1,3em /*diviso i pixel che vorrei per la misure di base 16, 21:16, 1em è 16 pixel, em relativo al font del body*/
+h3 {
+        margin: 0;  /*eliminiamo il margin naturale del browser*/
+        font-size: 1,3em; /*diviso i pixel che vorrei per la misure di base 16, 21:16, 1em è 16 pixel, em relativo al font del body*/
+        font-weight: normal; 
 }
 
 
