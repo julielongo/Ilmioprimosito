@@ -2,7 +2,7 @@ body{
 
     /*ricorda sempre i punti e virgola alla fine*/
     color:rgb(0, 0, 0); /*di tutto il testo*/
-    background-color:azure ;
+    background-color: white ;
 
     /*1 incollato direttamente da google
     font-family: 'Roboto', sans-serif;
@@ -20,7 +20,8 @@ body{
 }
 
 /*sottolineare solo h1*/
-h1 {
+h2 {
+    margin: 0;  /*eliminiamo il margin naturale del browser*/
 }
 
 h4 {
@@ -47,8 +48,8 @@ a:visited {
 /*organizzazione colonne*/
 div{
     width: 20%; /*100% è il massimo larghezza computer, diviso 5 colonne=20*/
-    /*margini, top right bottom left*/
-    padding: 25px 5px 0 5px;
+    /*una specie di margini, top right bottom left*/
+    padding: 0 5px 0 5px;
 }
 /*la classe indicata nel html nel css diventa un .*/ /*le prime quattro colonne hanno il filetto a destra*/
 
