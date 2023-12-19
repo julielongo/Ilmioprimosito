@@ -14,6 +14,9 @@ body{
 
     /*per dividere i div dell'Html in colonne*/
     display: flex; 
+    /*padding spazio interno della scatola, margin spazio esterno*/
+    padding:0; 
+    margin: 0;  /*eliminiamo il margin naturale del browser*/
 }
 
 /*sottolineare solo h1*/
@@ -44,9 +47,13 @@ a:visited {
 /*organizzazione colonne*/
 div{
     width: 20%; /*100% è il massimo larghezza computer, diviso 5 colonne=20*/
-
     /*margini, top right bottom left*/
     padding: 25px 5px 0 5px;
+}
+/*la classe indicata nel html nel css diventa un .*/ /*le prime quattro colonne hanno il filetto a destra*/
+
+div.news, div.calendario, div.showcase, div.ricercaesviluppo {
+    border-right: 1px solid black;
 }
 
 img{
