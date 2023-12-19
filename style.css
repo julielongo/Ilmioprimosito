@@ -1,62 +1,66 @@
 body{
 
     /*ricorda sempre i punti e virgola alla fine*/
-    color:rgb(0, 0, 0); /*di tutto il testo*/
-    background-color: white ;
+        color:rgb(0, 0, 0); /*di tutto il testo*/
+        background-color: white ;
 
     /*1 incollato direttamente da google
     font-family: 'Roboto', sans-serif;
     font-size: 20px;*/
 
     /* è necessario fare una pila di font nel caso in cui per poca connessione il font da me sceltonon venga caricato -> fontsafe, lo aggiungo con una virgola dopo font-family: 'HalyardDis_ISIAU Bk' uno che hanno tutti e la tipologia */
-    font-family: 'HalyardDis_ISIAU Bk', Arial, sans-serif;
-    font-size: 20px;
+         font-family: 'HalyardDis_ISIAU Bk', Arial, sans-serif;
+         font-size: 16px;
 
     /*per dividere i div dell'Html in colonne*/
-    display: flex; 
+        display: flex; 
+
     /*padding spazio interno della scatola, margin spazio esterno*/
-    padding:0; 
-    margin: 0;  /*eliminiamo il margin naturale del browser*/
+         padding:0; 
+        margin: 0;  /*eliminiamo il margin naturale del browser*/
 }
 
 /*sottolineare solo h1*/
 h2 {
-    margin: 0;  /*eliminiamo il margin naturale del browser*/
+         margin: 0;  /*eliminiamo il margin naturale del browser*/
+        font-size: 1,3em /*diviso i pixel che vorrei per la misure di base 16, 21:16, 1em è 16 pixel, em relativo al font del body*/
 }
 
-h4 {
-}
 
 /* a indica il link*/
 a {
-    color:black; 
-    border-bottom: 1px solid black; /*shorthand di ciò che sarebbero diverse righe di codice*/
-    text-decoration: none;
+        color:black; 
+        border-bottom: 1px solid black; /*shorthand di ciò che sarebbero diverse righe di codice*/
+        text-decoration: none;
 }
 
 /*tutti i link quando il mouse è sopra*/
 a:hover { 
-    color:black; 
-    text-decoration: underline;
-}
-/*tutti i link quando il mouse è stato visitato
-a:visited { 
-    color:rgb(0, 255, 8);
-    text-decoration: line-through;
-}*/
+        color:black; 
+        text-decoration: underline;
+    }
+                            /*tutti i link quando il mouse è stato visitato
+                            a:visited { 
+                                color:rgb(0, 255, 8);
+                                text-decoration: line-through;
+                            }*/
 
 /*organizzazione colonne*/
 div{
-    width: 20%; /*100% è il massimo larghezza computer, diviso 5 colonne=20*/
-    /*una specie di margini, top right bottom left*/
-    padding: 0 5px 0 5px;
-}
+        width: 20%; /*100% è il massimo larghezza computer, diviso 5 colonne=20*/
+         /*una specie di margini, top right bottom left*/
+        padding: 0 5px 0 5px;
+     }
 /*la classe indicata nel html nel css diventa un .*/ /*le prime quattro colonne hanno il filetto a destra*/
 
-div.news, div.calendario, div.showcase, div.ricercaesviluppo {
-    border-right: 1px solid black;
-}
+ div.news, div.calendario, div.showcase, div.ricercaesviluppo {
+         border-right: 1px solid black;
+    }
+
+div.calendario time {
+        font-size: 1.18em;
+    }
 
 img{
-    width:100%; /*100% sempre in base al contenitore!! quindi al div non al width */
-}
+         width:100%; /*100% sempre in base al contenitore!! quindi al div non al width */
+    }
